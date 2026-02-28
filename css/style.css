@@ -188,6 +188,7 @@ h6 {
     border-radius: 8px;
     margin-bottom: 2rem;
 }
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .hero-title {
         font-size: 2.2rem;
@@ -228,5 +229,93 @@ h6 {
 
     .container {
         max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .hero-section {
+        padding: 3rem 0;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .btn-accent {
+        padding: 0.6rem 1.5rem;
+    }
+
+    .product-card {
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .product-image {
+        height: 140px;
+    }
+
+    .product-title {
+        font-size: 0.95rem;
+    }
+
+    .product-price {
+        font-size: 1rem;
+    }
+
+    .rating {
+        font-size: 0.9rem;
+    }
+
+    .btn-outline-primary {
+        padding: 0.4rem 1.2rem;
+        font-size: 0.9rem;
+    }
+
+    .stat-number {
+        font-size: 1.8rem;
+    }
+
+    .stat-label {
+        font-size: 0.8rem;
+    }
+
+    .team-card {
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .team-image {
+        width: 90px;
+        height: 90px;
+    }
+
+    .advantage-icon {
+        font-size: 1.8rem;
+    }
+
+    .filter-section {
+        padding: 0.75rem;
+    }
+
+    .footer {
+        padding: 2rem 0 1rem;
+        text-align: center;
+    }
+
+    .social-icons {
+        margin-top: 1rem;
+    }
+
+    .container {
+        max-width: 540px;
+    }
+
+    .product-card:hover {
+        transform: none;
     }
 }
