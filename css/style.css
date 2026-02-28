@@ -319,3 +319,124 @@ h6 {
         transform: none;
     }
 }
+
+@media screen and (max-width: 575px) {
+    .navbar {
+        padding: 0.5rem 0;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .hero-section {
+        padding: 2.5rem 0;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 1.6rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .btn-accent {
+        padding: 0.5rem 1.25rem;
+        font-size: 0.9rem;
+    }
+
+    .product-card {
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .product-image {
+        height: 130px;
+    }
+
+    .product-title {
+        font-size: 0.9rem;
+    }
+
+    .product-price {
+        font-size: 1rem;
+    }
+
+    .rating {
+        font-size: 0.85rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .btn-outline-primary {
+        padding: 0.35rem 1rem;
+        font-size: 0.85rem;
+    }
+
+    .stat-number {
+        font-size: 1.6rem;
+    }
+
+    .stat-label {
+        font-size: 0.75rem;
+    }
+
+    .team-card {
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .team-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .advantage-icon {
+        font-size: 1.6rem;
+    }
+
+    .filter-section {
+        padding: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .filter-section select,
+    .filter-section input {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer {
+        padding: 1.5rem 0 1rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .social-icons {
+        margin-top: 1rem;
+    }
+
+    .social-icons a {
+        font-size: 1.3rem;
+        margin: 0 0.5rem;
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .product-card:hover {
+        transform: none;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+}
