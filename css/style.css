@@ -1,0 +1,190 @@
+:root {
+    --primary-dark: #0B2F4F;
+    --primary: #1E4A6F;
+    --accent: #4A90E2;
+    --light-gray: #F8F9FA;
+    --dark: #212529;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--dark);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+.navbar {
+    background-color: var(--primary-dark) !important;
+    padding: 1rem 0;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+.nav-link {
+    opacity: 0.9;
+    transition: opacity 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    opacity: 1;
+    color: var(--accent) !important;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+    color: white;
+    padding: 4rem 0;
+    margin-bottom: 3rem;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+
+.btn-accent {
+    background-color: var(--accent);
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-accent:hover {
+    background-color: #2171c7;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
+}
+
+.product-card {
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    padding: 1.5rem;
+    height: 100%;
+    transition: all 0.3s ease;
+    background: white;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    border-color: var(--accent);
+}
+
+.product-image {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.product-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.product-price {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.rating {
+    color: #ffc107;
+    margin-bottom: 1rem;
+}
+
+.btn-outline-primary {
+    border-color: var(--primary);
+    color: var(--primary);
+    font-weight: 500;
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.advantage-icon {
+    font-size: 2.5rem;
+    color: var(--accent);
+    margin-bottom: 1rem;
+}
+
+.team-card {
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background: var(--light-gray);
+    height: 100%;
+}
+
+.team-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid var(--accent);
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.stat-label {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.footer {
+    background-color: var(--light-gray);
+    padding: 3rem 0 1.5rem;
+    margin-top: 4rem;
+    border-top: 1px solid #dee2e6;
+}
+
+.social-icons a {
+    color: var(--primary);
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: var(--accent);
+}
+
+.filter-section {
+    background: var(--light-gray);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
