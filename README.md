@@ -33,3 +33,18 @@
 - Bootstrap Icons
 - Google Fonts (Inter)
 - Git/GitHub
+
+## Скриншоты
+
+Главная страница
+![1](img/screenshots/screenshot-index.png)
+
+Каталог товаров
+![2](img/screenshots/screenshot-catalog.png)
+
+О нас
+![3](img/screenshots/screenshot-about.png)
+
+## Лицензия
+
+Все права защищены.
